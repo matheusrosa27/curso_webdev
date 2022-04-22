@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Registro</title>
+</head>
+<body>
+    <!-- Use GET, not POST-->
+    <div>
+        <form method="GET">
+            <!-- SPAN é usado para alterar algo específico-->
+            <span>Nome: </span><input type="text" name="nome" required> <br>
+            Sobrenome: <input type="text" name="sobrenome"> <br>
+            Senha: <input type="password" min="4" name="senha"> <br>
+            Email: <input type="email" name="email" required> <br>
+            Data de Nascimento: <input type="date" name="datadenascimento"> <br>
+            Gênero: <br>
+            <input type="radio" name="gender" value="male">Masculino <br>
+            <input type="radio" name="gender" value="fem">Feminino <br>
+            <input type="radio" name="gender" value="otherGen">Outro <br>
+            Pets: <br>
+            <input type="checkbox" name="cachorro"> Cachorro <br>
+            <input type="checkbox" name="gato"> Gato <br>
+            <input type="checkbox" name="outroPet"> Outro <br>
+            Carros: <br>
+            <select name="cars">
+                <option value="chevrolet" name="chevrolet">Chevrolet</option>
+                <option value="fiat" name="fiat">Fiat</option>
+                <option value="ford" name="ford">Ford</option>
+            </select>
+    
+            <br><br>
+            <input type="submit" value="Registre-se!">
+            <input type="reset">
+    
+        </form>
+    </div>
+</body>
+</html>

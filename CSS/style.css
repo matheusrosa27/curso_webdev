@@ -1,0 +1,79 @@
+/*Selector {
+    Property: value;
+}*/
+
+* {
+    text-align: center;
+}
+
+body {
+    background-image: url(https://gmedia.playstation.com/is/image/SIEPDC/god-of-war-ragnarok-watermark-screenshot-08-en-08sep21?$native$);
+    background-size: cover;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+}
+
+h2 {
+    background-color:rgba(7, 81, 138, 1);
+    color: #BBDBF3;
+    text-align: center;
+    border: 3px solid rgba(4, 51, 87, 1);
+    cursor: pointer;
+}
+
+img {
+    float: left;
+}
+
+p{
+    text-align: center;
+    color: #043357;
+    font-size: 150%;
+    background-color: rgba(160, 202, 234, 0.7);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+/*When CLASS, we use . */
+.webtext {
+    border: 2px dashed rgba(7, 81, 138, 1);
+}
+
+.p-first {
+    color:black;
+}
+
+/*When ID, we use # */
+#div1 {
+    background-color: rgba(72, 145, 201, 1);
+    width: 30%;
+    margin: auto;
+}
+#div2 {
+    background-color: rgba(160, 202, 234, 1);
+    width: 30%;
+    margin: auto;
+}
+
+#div1:hover {
+    background-color: rgba(72, 145, 201, 0);
+}
+#div2:hover {
+    background-color: rgba(160, 202, 234, 0);
+}
+
+
+
+
+.boxmodel {
+    background-color: #BBDBF3;
+    border:5px solid rgba(4, 51, 87, 1);
+    padding: 20px;
+    display: inline-block;
+}
